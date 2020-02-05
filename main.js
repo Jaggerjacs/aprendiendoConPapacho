@@ -1,8 +1,15 @@
-var reloquito;
+// Defino la funcion lala()
+function lala() {
+    // Declaro la variable producto
+    var producto;
 
-function papacho() {
-    reloquito = 5;
-        console.log(reloquito);
+    // Asigno el valor que devuelve la funcion prompt(), en la variale producto
+    producto = prompt('hola, tirame una', '');
+
+    // Creo elementos o texto plano en el DOM (esto queda dentro de la etiqueta <body>)
+    document.write('el producto es ');
+    document.write(producto);
 }
 
-papacho();
+// llamo a la funcion lala()
+lala();
